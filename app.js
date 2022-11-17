@@ -9,13 +9,13 @@ listItems.forEach((item, idx) => {
         item.classList.add('active')
         contents[idx].classList.add('show')
     })
-    
 })
 
-function hideAllContents(){
+function hideAllContents() {
     contents.forEach(content => content.classList.remove('show'))
 }
 
-function hideAllItems(){
+
+function hideAllItems() {
     listItems.forEach(item => item.classList.remove('active'))
 }
